@@ -1,0 +1,50 @@
+body{
+    width: 1024px;
+    height: 768px;
+    overflow: hidden;
+}
+div.seat{
+    width: 13px;
+    height: 13px;
+    border-radius: 5px;
+    margin: 2px;
+    border: black solid 1px;
+    position:fixed;
+
+}
+
+div.upstairs{
+    border-color: brown;
+}
+
+div.highlighted{
+    background-color: red!important;
+}
+
+div.neighbour{
+    transition: background-color 2s ease;
+    background-color: orange;
+}
+
+div#readable{
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    position: fixed;
+}
+
+span.digits{
+    display: inline-block;
+    width: 1.5em;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+div#copyright{
+    bottom: 0px;
+    margin-bottom: 1em;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}

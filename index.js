@@ -306,7 +306,7 @@ document.addEventListener('keyup', function(e) {
 
 // tests
 
-
+// reference: http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html
 function isEquivalent(a, b) {
     // Create arrays of property names
     var aProps = Object.getOwnPropertyNames(a);
